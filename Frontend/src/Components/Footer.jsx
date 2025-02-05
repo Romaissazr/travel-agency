@@ -93,7 +93,7 @@ function Footer() {
       </div>
       <div className="bg-black flex flex-col md:flex-row items-center justify-between px-4 md:px-20 py-4 bg-opacity-20 w-full">
         <p className="text-gray-400 text-center md:text-left">
-          Copyright 2025 Tour Guide. All Rights Reserved
+          Copyright 2025 Tour Guide rmss. All Rights Reserved
         </p>
         <div className="flex gap-2 mt-4 md:mt-0">
           <img src={fb} alt="" />
