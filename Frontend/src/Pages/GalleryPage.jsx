@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
 function GalleryPage() {
   const [images, setImages] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
@@ -75,11 +76,11 @@ function GalleryPage() {
         />
       </div>
 
-      <div className="flex justify-center gap-4 mb-6">
+      <div className="flex flex-wrap justify-center gap-4 mb-6">
         <select
           value={category}
           onChange={handleCategoryChange}
-          className="p-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="p-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 flex-grow sm:flex-grow-0"
         >
           <option value="">All Categories</option>
           <option value="Nature">Nature</option>
@@ -90,7 +91,7 @@ function GalleryPage() {
         <select
           value={feature}
           onChange={handleFeatureChange}
-          className="p-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="p-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 flex-grow sm:flex-grow-0"
         >
           <option value="">All</option>
           <option value="true">Featured</option>
@@ -100,7 +101,7 @@ function GalleryPage() {
         <select
           value={sort}
           onChange={handleSortChange}
-          className="p-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="p-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 flex-grow sm:flex-grow-0"
         >
           <option value="latest">Latest</option>
           <option value="oldest">Oldest</option>
@@ -130,12 +131,12 @@ function GalleryPage() {
         </div>
       )}
 
-      <div className="flex justify-center mt-6">
+      <div className="flex flex-wrap justify-center mt-6">
         {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => (
           <button
             key={pageNum}
             onClick={() => handlePageChange(pageNum)}
-            className={`mx-1 px-3 py-1 border rounded-lg ${
+            className={`mx-1 my-1 px-3 py-1 border rounded-lg ${
               page === pageNum ? "bg-primary text-white" : "bg-white"
             } hover:bg-primary transition-colors duration-300`}
           >
