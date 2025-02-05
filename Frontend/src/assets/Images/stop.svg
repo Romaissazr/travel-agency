@@ -1,0 +1,22 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_57_12)">
+<path d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100Z" fill="url(#paint0_radial_57_12)" fill-opacity="0.3"/>
+<path d="M49.9999 85.7144C69.7243 85.7144 85.7142 69.7246 85.7142 50.0001C85.7142 30.2756 69.7243 14.2858 49.9999 14.2858C30.2754 14.2858 14.2856 30.2756 14.2856 50.0001C14.2856 69.7246 30.2754 85.7144 49.9999 85.7144Z" fill="url(#paint1_radial_57_12)" fill-opacity="0.3"/>
+<path d="M49.9999 71.4286C61.8346 71.4286 71.4285 61.8347 71.4285 50C71.4285 38.1653 61.8346 28.5714 49.9999 28.5714C38.1652 28.5714 28.5713 38.1653 28.5713 50C28.5713 61.8347 38.1652 71.4286 49.9999 71.4286Z" fill="white"/>
+<path d="M43 43.8571C43 42.8315 43.8315 42 44.8571 42V42C45.8828 42 46.7143 42.8315 46.7143 43.8571V55.1429C46.7143 56.1685 45.8828 57 44.8571 57V57C43.8315 57 43 56.1685 43 55.1429V43.8571Z" fill="#7BBCB0"/>
+<path d="M52.2857 44C52.2857 42.8954 53.1172 42 54.1429 42C55.1685 42 56 42.8954 56 44V55C56 56.1046 55.1685 57 54.1429 57C53.1172 57 52.2857 56.1046 52.2857 55V44Z" fill="#7BBCB0"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_57_12" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(50 50) rotate(90) scale(50)">
+<stop stop-color="white" stop-opacity="0"/>
+<stop offset="1" stop-color="white"/>
+</radialGradient>
+<radialGradient id="paint1_radial_57_12" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(49.9999 50.0001) rotate(90) scale(35.7143)">
+<stop stop-color="white" stop-opacity="0"/>
+<stop offset="1" stop-color="white"/>
+</radialGradient>
+<clipPath id="clip0_57_12">
+<rect width="100" height="100" fill="white"/>
+</clipPath>
+</defs>
+</svg>

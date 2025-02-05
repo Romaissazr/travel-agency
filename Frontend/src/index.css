@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  cursor: default;
+}
+
+.centered-datepicker {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+
+}
+
+
+.react-datepicker {
+  width: 90vw !important;
+  max-width: 300px !important;
+}
+
+
+.react-datepicker__month-container {
+  width: 100% !important;
+}

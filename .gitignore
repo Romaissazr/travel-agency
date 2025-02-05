@@ -1,0 +1,15 @@
+# Ignore environment files
+.env
+Backend/.env
+Frontend/.env
+
+# Ignore build folders
+node_modules/
+dist/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Local Netlify folder
+.netlify
